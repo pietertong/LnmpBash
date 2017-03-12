@@ -217,6 +217,8 @@ fi
 echo "Nginx install starting..."
 nginxdir="${lnmpdir}/nginx"
 tar -zxvf "${lnmpsoftdir}/nginx-1.11.3.tar.gz" && cd nginx-1.11.3
+sed -i 's/1.11.3/0.0.3/' "${lnmpsoftdir}/nginx-1.11.3/src/core/nginx.h"
+sed -i 's/nginx\//IIS\//' "${lnmpsoftdir}/nginx-1.11.3/src/core/nginx.h"
 ./configure --prefix="${nginxdir}" --with-http_stub_status_module --with-http_ssl_module --with-http_v2_module
 make && make install
 if [ -d "${nginxdir}" ];then

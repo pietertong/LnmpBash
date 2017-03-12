@@ -1,17 +1,6 @@
 .
 ├── install.sh
 ├── README.md
-├── script
-│   ├── lnmpsoft.cphalcon.shell
-│   ├── lnmpsoft.geo.shell
-│   ├── lnmpsoft.mongodb.shell
-│   ├── lnmpsoft.mongo.shell
-│   ├── lnmpsoft.mysql.shell
-│   ├── lnmpsoft.nginx.shell
-│   ├── lnmpsoft.php.shell
-│   ├── lnmpsoft.redis.shell
-│   ├── lnmpsoft.redis.shell.back
-│   └── lnmpsoft.reduce.pwd.shell
 ├── soft
 │   ├── apr-1.5.2.tar.gz
 │   ├── apr-util-1.5.4.tar.gz
@@ -45,5 +34,3 @@
 ├── test
 ├── tree.md
 └── uninstall.sh
-
-4 directories, 42 files
